@@ -1,0 +1,10 @@
+.custom-class {
+    display: none;
+}
+
+@include media-breakpoint-up(md) {
+    .custom-class {
+      display: block;
+
+    }
+}
