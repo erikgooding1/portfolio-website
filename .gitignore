@@ -66,5 +66,5 @@ build/Release
 .env
 
 # font-awesome
-public/assets/font-awesome/
+public/assets/fontawesome/
 node_modules
