@@ -4,13 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <script src="https://kit.fontawesome.com/01dc2fa461.js" crossorigin="anonymous"></script>    <link
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+    <link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
+    <link href="assets/fontawesome/css/brands.css" rel="stylesheet" />
+    <link href="assets/fontawesome/css/solid.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
     <style>
       .reset-a,
@@ -49,7 +51,9 @@
           </div>
           <div class="navbar-nav ms-auto me-lg-4 text-center">
             <div class="btn-group-horizontal mx-auto text-center">
-              <a class="reset-a px-1" href="https://www.linkedin.com/in/erik-gooding-7aa7b6209/"
+              <a
+                class="reset-a px-1"
+                href="https://www.linkedin.com/in/erik-gooding-7aa7b6209/"
                 ><i class="fa-brands fa-linkedin-in"></i
               ></a>
               <a class="reset-a px-1" href="mailto:erik.gooding1@gmail.com"
@@ -73,8 +77,13 @@
             I'm a software engineer with a passion for learning and creating.
             Take a look at some of my projects below.
           </p>
-          <button class="btn btn-outline-light" type="button"><a class="reset-a px-1" href="#"
-            ><i class="fa-solid fa-download"></i> Resume</button>
+          <button class="btn btn-outline-light" type="button">
+            <a
+              class="reset-a px-1"
+              href="assets/pdf/goodingResumeSeptember2023.pdf"
+              ><i class="fa-solid fa-download"></i> Resume</a
+            >
+          </button>
         </div>
       </div>
       <hr />
@@ -92,9 +101,21 @@
               OpenWeather API
             </p>
             <button class="btn btn-outline-light" type="button">
-              Portfolio Website
+              <a
+                class="reset-a"
+                href="https://www.cs.odu.edu/~cpi/old/411/yellof22/index.html"
+              >
+                Portfolio Website</a
+              >
             </button>
-            <button class="btn btn-outline-light" type="button">Github</button>
+            <button class="btn btn-outline-light" type="button">
+              <a
+                class="reset-a"
+                href="https://github.com/SproutShareDevs/SproutShare"
+              >
+                Github
+              </a>
+            </button>
           </div>
         </div>
         <div class="col-lg-6">
@@ -106,10 +127,12 @@
             </p>
             <p>Spotify API // Setlist.fm API // Python</p>
             <button class="btn btn-outline-secondary" type="button">
-              Live App
+              <a class="reset-a" href="https://spotify-setlist.egood.tech">
+                Live App
+              </a>
             </button>
             <button class="btn btn-outline-secondary" type="button">
-              Github
+              <a class="reset-a" href="#"> Github </a>
             </button>
           </div>
         </div>
@@ -124,10 +147,17 @@
             </p>
             <p>NHL API // Discord API // Discord JS</p>
             <button class="btn btn-outline-secondary" type="button">
-              Live App
+              <a class="reset-a" href="https://hockey-bot.egood.tech">
+                Live App
+              </a>
             </button>
             <button class="btn btn-outline-secondary" type="button">
-              Github
+              <a
+                class="reset-a"
+                href="https://github.com/erikgooding1/hockey-discord-bot"
+              >
+                Github
+              </a>
             </button>
           </div>
         </div>
@@ -165,11 +195,13 @@
         <div class="col-lg-9">
           <div class="card-body">
             <h5 class="card-title mb-3">
-              <a class="reset-a px-1" href="assets/pdf/goodingResumeSeptember2023.pdf"
-                ><i class="fa-solid fa-download"></i
-              >
-              <u>Resume</u>
-            </h5></a>
+              <a
+                class="reset-a px-1"
+                href="assets/pdf/goodingResumeSeptember2023.pdf"
+                ><i class="fa-solid fa-download"></i>
+                <u>Resume</u>
+              </a>
+            </h5>
             <h6 class="card-subtitle mb-2 text-muted">Objective</h6>
             <p class="card-text">
               Obtain an entry level position in software engineering that will
@@ -177,23 +209,36 @@
               future.
             </p>
             <h6 class="card-subtitle mb-2 text-muted">Education</h6>
-            <p class="card-text mb-0 ">
+            <p class="card-text mb-0">
               Bachelor of Science in Computer Science
             </p>
             <p class="card-text mb-0">Old Dominion University - Norfolk, VA</p>
             <p class="card-text">
-              <small class="text-body-secondary">Graduated Spring 2023 - 3.9 GPA</small>
+              <small class="text-body-secondary"
+                >Graduated Spring 2023 - 3.9 GPA</small
+              >
             </p>
-
 
             <h6 class="card-subtitle mb-2 text-muted">Skills</h6>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">MERN Stack Familiarity</li>
-              <li class="list-group-item">Intermediate Front End Web Development skills including HTML, CSS, JavaScript</li>
-              <li class="list-group-item">Software Development programming with C++</li>
-              <li class="list-group-item">Beginner Relational Database skills (PostgreSQL, MySQL)</li>
-              <li class="list-group-item">Basic understanding of agile development methodologies, with a desire for professional experience to attempt to utilize them</li>
-              <li class="list-group-item">Beginner-Intermediate coding skills with an eagerness to grow</li>
+              <li class="list-group-item">
+                Intermediate Front End Web Development skills including HTML,
+                CSS, JavaScript
+              </li>
+              <li class="list-group-item">
+                Software Development programming with C++
+              </li>
+              <li class="list-group-item">
+                Beginner Relational Database skills (PostgreSQL, MySQL)
+              </li>
+              <li class="list-group-item">
+                Basic understanding of agile development methodologies, with a
+                desire for professional experience to attempt to utilize them
+              </li>
+              <li class="list-group-item">
+                Beginner-Intermediate coding skills with an eagerness to grow
+              </li>
             </ul>
           </div>
         </div>
@@ -203,63 +248,61 @@
 
     <div class="row pt-3 pb-5">
       <ul class="text-center text-lg-end px-5">
-        <a class="reset-a px-1" href="https://www.linkedin.com/in/erik-gooding-7aa7b6209/"
+        <a
+          class="reset-a px-1"
+          href="https://www.linkedin.com/in/erik-gooding-7aa7b6209/"
           ><i class="fa-brands fa-linkedin-in"></i
         ></a>
         <a class="reset-a px-1" href="mailto:erik.gooding1@gmail.com"
           ><i class="fa-solid fa-envelope"></i
         ></a>
-        <a class="reset-a px-1" href="https://github.com/erikgooding1"><i class="fa-brands fa-github"></i></a>
+        <a class="reset-a px-1" href="https://github.com/erikgooding1"
+          ><i class="fa-brands fa-github"></i
+        ></a>
       </ul>
     </div>
-    
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
     <script type="module">
-
       // Import the functions you need from the SDKs you need
-    
+
       import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";
-    
+
       import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-analytics.js";
-    
+
       // TODO: Add SDKs for Firebase products that you want to use
-    
+
       // https://firebase.google.com/docs/web/setup#available-libraries
-    
-    
+
       // Your web app's Firebase configuration
-    
+
       // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    
+
       const firebaseConfig = {
-    
         apiKey: "AIzaSyBrG78L3oWEMSOWQmWkI9C1oxXG2mQGDMQ",
-    
+
         authDomain: "portfolio-website-8c34b.firebaseapp.com",
-    
+
         projectId: "portfolio-website-8c34b",
-    
+
         storageBucket: "portfolio-website-8c34b.appspot.com",
-    
+
         messagingSenderId: "866939956848",
-    
+
         appId: "1:866939956848:web:357a67fe9c7569206e8eb5",
-    
-        measurementId: "G-S68MTEK343"
-    
+
+        measurementId: "G-S68MTEK343",
       };
-    
-    
+
       // Initialize Firebase
-    
+
       const app = initializeApp(firebaseConfig);
-    
+
       const analytics = getAnalytics(app);
-    
     </script>
   </body>
 </html>
